@@ -73,7 +73,7 @@ Alternatively you can do the same as the Mac guide but using this [ADB download 
 
 Congratulations! You're all set and ready to use adb!
 
-[Jump To BrokenVancedPackage Fix](https://github.com/gghhkm/Vanced-Issue-Center/blob/master/Guides/BrokenVancedPackage.md) || [Jump To Creating A Logcat](https://github.com/gghhkm/Vanced-Issue-Center/blob/master/Guides/CreatingALogcat.md)
+[Jump To BrokenVancedPackage Fix](https://github.com/Vendicated/Vanced-Issue-Center/blob/master/Guides/BrokenVancedPackage.md) || [Jump To Creating A Logcat](https://github.com/Vendicated/Vanced-Issue-Center/blob/master/Guides/CreatingALogcat.md)
 
 ---
 
