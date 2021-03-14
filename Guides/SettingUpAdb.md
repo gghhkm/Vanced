@@ -1,3 +1,4 @@
+
 # Setting Up ADB
 
 In this guide you will learn how to set up ADB
@@ -105,52 +106,6 @@ List of devices attached
 
 ## Advanced - Adding adb to path for easier access
 > if you installed via command line on linux you can skip this entirely.
-
-path is a variable that exists on all operating systems. It tells your terminal where to look for programs so you don't have to be in that program's directory all the time.
-
-By adding adb to your path you can execute it from anywhere by simply typing `adb`. Doing so is very simple actually!
-
-### Adding adb to your path on Windows
-
-- Open the app search bar
-- Search for env and choose `Edit the system environment variables`
-- Click the Environment Variables button
-- Under System Variables in the second half find PATH and click on edit
-- Click New and paste the full path to the adb folder
-
-Next time you start a terminal you can just run `adb` and it will know where to look!
-
-### Adding adb to your path on Linux or Mac
-
-- Open a terminal
-- Find out which shell you're using via `echo $SHELL`
-- Run the appropriate command for your shell:
-  - zsh -> `echo "export PATH=/FULL/PATH/TO/ADB/FOLDER:$PATH" >> ~/.zshrc`
-  - bash -> `echo "export PATH=/FULL/PATH/TO/ADB/FOLDER:$PATH" >> ~/.bash_profile`
-- Make sure you replace `/FULL/PATH/TO/ADB/FOLDER` with the actual path
-- Example with my setup: `echo "export PATH=/home/ven/Downloads/adb:$PATH" >> ~/.zshrc`
-
-Next time you start a terminal you can just run `adb` and it will know where to look!
-
-- Linux: `./adb myCommand`
-
-Make sure your phone is connected to your PC and unlocked!
-
----
-
-## Let's test it!
-
-- Unlock your phone and connect it to your PC
-- Run `.\adb devices` or `./adb devices` depending on your Os
-- If everything is okay, you should now get a popup on your Phone whether you want to allow USB Debugging. Select yes
-- Your Terminal should print something like
-
-```bash
-List of devices attached
-576OPB01    device
-```
-
-## Advanced - Adding adb to path for easier access
 
 path is a variable that exists on all operating systems. It tells your terminal where to look for programs so you don't have to be in that program's directory all the time.
 
