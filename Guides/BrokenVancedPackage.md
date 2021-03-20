@@ -4,7 +4,7 @@
 
 If you are running into this issue or `INSTALL_FAILED_VERSION_DOWNGRADE` then you are at the right spot!
 
-This error is not caused by Vanced; It is caused by Your ROMs package manager. A bug in your package manager makes Vanced no longer be visible to the system but is still installed somewhere in your system.
+This error is not caused by Vanced; It is caused by Your ROMs package manager. A bug in your package manager makes Vanced no longer visible to the system but is still installed somewhere in your system.
 
 Sadly you can only fix this issue if you have root or a PC, Otherwise the only way to fix it is to factory reset your phone. Sorry! Blame your OEM/Vendor!
 
