@@ -28,7 +28,7 @@ Luckily we can still remove it via the command line! Once you uninstalled it you
 
 - Run the following adb command. Unless you added adb to PATH, add a `.\` before the command. Having issues? Check [our adb Guide](./SettingUpAdb.md#getting-started-using-adb)
 
-```bash
+```ts
 adb uninstall com.vanced.android.youtube
 ```
 
@@ -45,7 +45,7 @@ su -c "pm uninstall com.vanced.android.youtube"
 If all else fails you can run 
 `adb shell pm list users` or if you're root `su -c "pm list users"` should return something like following :
 
-```bash
+```ts
         UserInfo{0:USER_NAME:c15} running
         UserInfo{150:USER_NAME:SOME_NUMBER} running
 ```
@@ -53,7 +53,7 @@ If all else fails you can run
 User 0 is the system user and the other user (In this case, it's user 150) is the actual user.
 So you can run following command to specify which user to delete youtube vanced.
 
-```bash
+```ts
 adb shell pm uninstall --user 150 com.vanced.android.youtube
 ```
 Or
